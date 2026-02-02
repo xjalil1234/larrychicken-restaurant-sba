@@ -86,9 +86,11 @@
 
 @media (max-width: 992px) {
     .hero {
-        padding: 0 5%;
+        padding: 100px 5% 50px;
         justify-content: center;
         text-align: center;
+        height: auto;
+        min-height: 80vh;
     }
 
     .hero-overlay {
